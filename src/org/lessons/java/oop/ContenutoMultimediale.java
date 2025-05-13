@@ -14,8 +14,8 @@ public class ContenutoMultimediale {
         this.attori = attori;
     }
 
-    public void riproduci(){
-        System.out.println("Sto riproducendo il contenuto con titolo " + this.titolo);
+    public String riproduci(){
+        return "Sto riproducendo il contenuto con titolo " + this.titolo;
     };
 
     public void setAttori(String[] nuoviAttori){

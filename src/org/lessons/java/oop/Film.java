@@ -15,4 +15,8 @@ public class Film extends ContenutoMultimediale {
         return this.durata;
     }
 
+    @Override
+    public String riproduci(){
+        return "Sto riproducendo un film, intitolato \"" + this.getTitolo() + "\", dalla durata di " + this.durata + " minuti";
+    };
 }

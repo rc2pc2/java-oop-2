@@ -13,4 +13,9 @@ public class Serie extends ContenutoMultimediale {
         return this.numeroDiEpisodi;
     }
 
+    @Override
+    public String riproduci(){
+        return super.riproduci() + ", diviso in " + this.numeroDiEpisodi  + " episodi";
+    }
+
 }
